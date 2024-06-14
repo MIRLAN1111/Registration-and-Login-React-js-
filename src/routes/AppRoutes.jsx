@@ -9,7 +9,7 @@ import {  useSelector } from 'react-redux';
 const AppRoutes = () => {
   const { isAuth } = useSelector((state) => state.auth);
   const router = createBrowserRouter([
-    { path: '/', element: isAuth ? <HomePage /> : <Navigate to="/signUpkl;"/>},
+    { path: '/', element: isAuth ? <HomePage /> : <Navigate to="/signUp"/>},
     {path: '/signUp',element: <SignUp/>},
     { path: '/comfirmEmail', element: <ComfirmByEmail /> },
     { path: '/signIn', element: <SignIn /> },

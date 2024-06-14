@@ -37,7 +37,7 @@ const SignUp = () => {
         label="Пароль"
         onChange={handlerPassword}
         value={password}
-        type="password"
+        // type="password"
       />
       <Button type="submit">SigIn</Button>
     </form>
